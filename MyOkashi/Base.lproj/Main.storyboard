@@ -57,6 +57,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="searchText" destination="WUN-Ua-gKU" id="F5J-9c-VO7"/>
+                        <outlet property="tableView" destination="Ex4-HF-acM" id="mq3-kq-Ocs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
